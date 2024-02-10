@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg  navbar-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           Start Bootstrap
@@ -32,7 +32,7 @@ const Navbar = () => {
             <a className="nav-link" href="#">
               Services
             </a>
-            <a className="nav-link disabled" aria-disabled="true">
+            <a className="nav-link" aria-disabled="true">
               Contact
             </a>
           </div>
