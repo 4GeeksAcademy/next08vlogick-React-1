@@ -9,6 +9,18 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-.navbar {
-  background-color: red;
+.colorjumbotron {
+  background-color: black;
+}
+
+.card-img-top {
+  object-fit: cover;
+}
+
+.cardcolores {
+  background-color: orange;
+}
+
+.backgroundpagina {
+  background-color: grey;
 }

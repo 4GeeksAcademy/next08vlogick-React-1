@@ -12,13 +12,14 @@ const Jumbotron = () => {
         the one in previous versions of Bootstrap. Check out the examples below
         for how you can remix and restyle it to your liking.
       </p>
-      <button
-        className="btn btn btn-lg"
-        style={{ backgroundColor: "red" }}
-        type="button"
-      >
-        Example button
-      </button>
+      <div className="card-footer text-body-secondary ">
+        <a
+          href="https://www.pinterest.es/irisp557/galaxia/"
+          className="btn btn-danger colorjumbotron"
+        >
+          Welcome!
+        </a>
+      </div>
     </div>
   );
 };

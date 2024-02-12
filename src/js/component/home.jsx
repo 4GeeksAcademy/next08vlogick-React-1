@@ -9,7 +9,7 @@ import Jumbotron from "./Jumbotron.js";
 const Home = () => {
   //aqui va la logica js
   return (
-    <div className="text-center">
+    <div className="text-center backgroundpagina">
       <div>
         <Navbar />
       </div>
